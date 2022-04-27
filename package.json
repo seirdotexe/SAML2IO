@@ -1,0 +1,15 @@
+{
+  "name": "saml2io",
+  "version": "1.0.0",
+  "description": "Encoder and decoder for SAML2 messages.",
+  "main": "./lib/",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "seirdotexe",
+  "license": "Apache-2.0"
+}
