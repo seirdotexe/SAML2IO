@@ -1,6 +1,4 @@
-# SAML2IO
-
-[![npm version](https://badge.fury.io/js/saml2io.svg)](https://badge.fury.io/js/saml2io)
+# SAML2IO [![npm version](https://badge.fury.io/js/saml2io.svg)](https://badge.fury.io/js/saml2io)
 
 Encoder and decoder for SAML2 messages.
 
