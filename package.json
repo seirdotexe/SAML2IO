@@ -1,6 +1,6 @@
 {
   "name": "saml2io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Encoder and decoder for SAML2 messages.",
   "main": "./lib/",
   "type": "module",
@@ -14,6 +14,12 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "keywords": [
+    "SAML",
+    "Security Assertion Markup Language",
+    "XML",
+    "Extensible Markup Language"
+  ],
   "author": "seirdotexe",
   "license": "Apache-2.0"
 }
