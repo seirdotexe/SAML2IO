@@ -11,14 +11,11 @@ npm install saml2io
 # Usage
 
 ```js
-import {
-  encodeSAMLRequest, decodeSAMLRequest,
-  encodeSAMLResponse, decodeSAMLResponse
-} from 'saml2io';
+import SAML2IO from 'saml2io';
 
-const encoded_request = await encodeSAMLRequest(/* SAML request... */);
-const decoded_request = await decodeSAMLRequest(encoded_request);
+const encoded_request = await SAML2IO.encodeSAMLRequest(/* SAML request... */);
+const decoded_request = await SAML2IO.decodeSAMLRequest(encoded_request);
 
-const encoded_response = encodeSAMLResponse(/* SAML response... */);
-const decoded_response = decodeSAMLResponse(encoded_response);
+const encoded_response = SAML2IO.encodeSAMLResponse(/* SAML response... */);
+const decoded_response = SAML2IO.decodeSAMLResponse(encoded_response);
 ```

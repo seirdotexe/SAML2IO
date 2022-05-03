@@ -1,6 +1,6 @@
 {
   "name": "saml2io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Encoder and decoder for SAML2 messages.",
   "main": "./lib/",
   "type": "module",
