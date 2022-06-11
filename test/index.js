@@ -2,10 +2,9 @@
 
 import SAML2IO from '../lib/index.js';
 
-import { readFile } from 'fs/promises';
-
+import { readFile } from 'node:fs/promises';
 import test from 'node:test';
-import assert from 'assert';
+import assert from 'node:assert';
 
 async function loadXML(file) {
   const data = await readFile(`./test/xml/${file}.xml`);
